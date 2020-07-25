@@ -14,6 +14,10 @@
 		0CDD200C24CC8C2700DD6154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CDD200B24CC8C2700DD6154 /* Assets.xcassets */; };
 		0CDD200F24CC8C2700DD6154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CDD200D24CC8C2700DD6154 /* LaunchScreen.storyboard */; };
 		0CDD201A24CC8C2700DD6154 /* POSRocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDD201924CC8C2700DD6154 /* POSRocketTests.swift */; };
+		0CDD202524CC8C6D00DD6154 /* Pencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDD202424CC8C6D00DD6154 /* Pencil.swift */; };
+		0CDD202824CC8CE800DD6154 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDD202724CC8CE800DD6154 /* SettingsViewController.swift */; };
+		6916E56B0F149DE6467FB7C8 /* Pods_POSRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4CFE1E417BF7BF25A1CDC3 /* Pods_POSRocket.framework */; };
+		A25C100D8F94DB9DD8B2CCA7 /* Pods_POSRocketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D48CFA29C60E9531FFB136 /* Pods_POSRocketTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C4CFE1E417BF7BF25A1CDC3 /* Pods_POSRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POSRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CDD1FFF24CC8C2500DD6154 /* POSRocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POSRocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CDD200224CC8C2500DD6154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CDD200424CC8C2500DD6154 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +43,13 @@
 		0CDD201524CC8C2700DD6154 /* POSRocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POSRocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CDD201924CC8C2700DD6154 /* POSRocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSRocketTests.swift; sourceTree = "<group>"; };
 		0CDD201B24CC8C2700DD6154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CDD202424CC8C6D00DD6154 /* Pencil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pencil.swift; sourceTree = "<group>"; };
+		0CDD202724CC8CE800DD6154 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2A44B1D2F9796930EFF2D822 /* Pods-POSRocketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSRocketTests.release.xcconfig"; path = "Target Support Files/Pods-POSRocketTests/Pods-POSRocketTests.release.xcconfig"; sourceTree = "<group>"; };
+		44439BE9946A27B429FCE005 /* Pods-POSRocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSRocket.release.xcconfig"; path = "Target Support Files/Pods-POSRocket/Pods-POSRocket.release.xcconfig"; sourceTree = "<group>"; };
+		62E160FF95E59500A97912B9 /* Pods-POSRocketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSRocketTests.debug.xcconfig"; path = "Target Support Files/Pods-POSRocketTests/Pods-POSRocketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7D48CFA29C60E9531FFB136 /* Pods_POSRocketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POSRocketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FEB299ACA71891418CE97F /* Pods-POSRocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POSRocket.debug.xcconfig"; path = "Target Support Files/Pods-POSRocket/Pods-POSRocket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6916E56B0F149DE6467FB7C8 /* Pods_POSRocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25C100D8F94DB9DD8B2CCA7 /* Pods_POSRocketTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +78,8 @@
 				0CDD200124CC8C2500DD6154 /* POSRocket */,
 				0CDD201824CC8C2700DD6154 /* POSRocketTests */,
 				0CDD200024CC8C2500DD6154 /* Products */,
+				91066E8DC3DFD2B303AE897A /* Pods */,
+				467016FCEECD9D7393AC2449 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +98,8 @@
 				0CDD200224CC8C2500DD6154 /* AppDelegate.swift */,
 				0CDD200424CC8C2500DD6154 /* SceneDelegate.swift */,
 				0CDD200624CC8C2500DD6154 /* ViewController.swift */,
+				0CDD202724CC8CE800DD6154 /* SettingsViewController.swift */,
+				0CDD202624CC8CA700DD6154 /* Utils */,
 				0CDD200824CC8C2500DD6154 /* Main.storyboard */,
 				0CDD200B24CC8C2700DD6154 /* Assets.xcassets */,
 				0CDD200D24CC8C2700DD6154 /* LaunchScreen.storyboard */,
@@ -99,6 +117,34 @@
 			path = POSRocketTests;
 			sourceTree = "<group>";
 		};
+		0CDD202624CC8CA700DD6154 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0CDD202424CC8C6D00DD6154 /* Pencil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		467016FCEECD9D7393AC2449 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C4CFE1E417BF7BF25A1CDC3 /* Pods_POSRocket.framework */,
+				D7D48CFA29C60E9531FFB136 /* Pods_POSRocketTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91066E8DC3DFD2B303AE897A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6FEB299ACA71891418CE97F /* Pods-POSRocket.debug.xcconfig */,
+				44439BE9946A27B429FCE005 /* Pods-POSRocket.release.xcconfig */,
+				62E160FF95E59500A97912B9 /* Pods-POSRocketTests.debug.xcconfig */,
+				2A44B1D2F9796930EFF2D822 /* Pods-POSRocketTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +152,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CDD201E24CC8C2700DD6154 /* Build configuration list for PBXNativeTarget "POSRocket" */;
 			buildPhases = (
+				88DE64603FA903ED775C650E /* [CP] Check Pods Manifest.lock */,
 				0CDD1FFB24CC8C2500DD6154 /* Sources */,
 				0CDD1FFC24CC8C2500DD6154 /* Frameworks */,
 				0CDD1FFD24CC8C2500DD6154 /* Resources */,
@@ -123,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CDD202124CC8C2700DD6154 /* Build configuration list for PBXNativeTarget "POSRocketTests" */;
 			buildPhases = (
+				CFAD51716C4C9D1750A84F4F /* [CP] Check Pods Manifest.lock */,
 				0CDD201124CC8C2700DD6154 /* Sources */,
 				0CDD201224CC8C2700DD6154 /* Frameworks */,
 				0CDD201324CC8C2700DD6154 /* Resources */,
@@ -195,6 +243,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		88DE64603FA903ED775C650E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POSRocket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFAD51716C4C9D1750A84F4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POSRocketTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0CDD1FFB24CC8C2500DD6154 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -202,6 +297,8 @@
 			files = (
 				0CDD200724CC8C2500DD6154 /* ViewController.swift in Sources */,
 				0CDD200324CC8C2500DD6154 /* AppDelegate.swift in Sources */,
+				0CDD202524CC8C6D00DD6154 /* Pencil.swift in Sources */,
+				0CDD202824CC8CE800DD6154 /* SettingsViewController.swift in Sources */,
 				0CDD200524CC8C2500DD6154 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +457,7 @@
 		};
 		0CDD201F24CC8C2700DD6154 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6FEB299ACA71891418CE97F /* Pods-POSRocket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +476,7 @@
 		};
 		0CDD202024CC8C2700DD6154 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44439BE9946A27B429FCE005 /* Pods-POSRocket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +495,7 @@
 		};
 		0CDD202224CC8C2700DD6154 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E160FF95E59500A97912B9 /* Pods-POSRocketTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +518,7 @@
 		};
 		0CDD202324CC8C2700DD6154 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A44B1D2F9796930EFF2D822 /* Pods-POSRocketTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
