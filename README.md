@@ -28,7 +28,7 @@ https://www.raywenderlich.com/5895-uikit-drawing-tutorial-how-to-make-a-simple-d
 the great in this example is he defines Enum file called Pencil.swift you can find it under Utils Folder where you can add, or update colors already provided, and he recognizes the selection coming from View Controller By tag 
 also have a facility to reset drawing, setting to prepare font size color and share.
 
-in this repository, I simplify the example.
+**in this repository, I simplify the example.**
 
 he is using gustier to recognize fingers moving on the screen , and  draw methods coming with UIKit to draw on the screen
 
