@@ -35,6 +35,8 @@ he is using gustier to recognize fingers moving on the screen , and  draw method
 2-6 I found a full example for that wish is provided by realm DB and here is a URL for that 
 https://github.com/realm/realm-draw
 
+Video tutorials : https://realm.io/solutions/offline-first/
+
 in this example, he prepares a local instance also using Realm Mobile Platform to handle sharing the drawing page between multiple devices 
 
 
